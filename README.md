@@ -23,7 +23,7 @@ If you take issue with anything here, please open a pull request with your recom
 * Braces generally go on their own lines.
 * Never put a space before `[`.
 * Always put a space before `{`.
-* Always put a space before `(` except for method invocations or when following another `(`.
+* Always put a space before `(` except for methods when following another `(`.
 
 ## Specific Guides
 
