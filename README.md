@@ -155,8 +155,7 @@ Put a space before and after `:` when listing base classes and interfaces.
 
 ```csharp
 // Perfect.
-class MyClass : BaseClass, IDoesThis
-{
+class MyClass : BaseClass, IDoesThis {
 }
 
 // Wrong.
@@ -176,8 +175,7 @@ enum Edge { Left, Right, Bottom, Top }
 Larger enums should list entries on separate lines and always end in a comma:
 
 ```csharp
-enum StringSplitOptions
-{
+enum StringSplitOptions {
 	None = 0,
 	RemoveEmptyEntries = 1,
 }
@@ -188,12 +186,11 @@ enum StringSplitOptions
 Leave an empty line before every method, property, indexer, constructor, and destructor:
 
 ```csharp
-class Person
-{
+class Person {
+
 	string name;
 	
-	public Person(string name)
-	{
+	public Person(string name) {
 		this.name = name;
 	}
 }
@@ -202,8 +199,8 @@ class Person
 Automatic properties don't need to be preceded by an empty line:
 
 ```csharp
-class Person
-{
+class Person {
+
 	string Name { get; set; }
 	int Age { get; set; }
 	
@@ -215,8 +212,7 @@ class Person
 
 ```csharp
 public async Task<string[]> Query<TDatabase>(User user, TDatabase database, Role role = Role.Admin)
-	: where TDatabase : IDatabase
-{
+	: where TDatabase : IDatabase {
 }
 ```
 
